@@ -1,0 +1,57 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f4ed;
+}
+
+.title {
+  text-align: left;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: orangered;
+}
+
+.job-list {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.job {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.job-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.job-info {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.job-link {
+  display: block;
+  color: blue;
+  text-decoration: underline;
+}
+
+.load-more {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: orangered;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.loading {
+  text-align: center;
+}
